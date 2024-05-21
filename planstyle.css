@@ -1,0 +1,135 @@
+body{
+	font-family: 'geogia',serif;
+	background-color: violet;
+	margin:5px;
+	padding:4;
+	display: :flex;
+	flex-direction: row;
+	align-items: left;
+	text-align: center;
+}
+
+header{
+	background-color: purple;
+	text-align: center;
+	color:white;
+	padding: 2em 2em;
+	width:100%;
+	box-shadow:0 2px 4px rgba(0,0,0,0.1);
+}
+header p{
+	margin:0.5em 0 0;
+	font-size:1.5em;
+}
+
+h1{
+	margin:0;
+	font-size: 50px;
+}
+
+main{
+	color: white;
+	width:100%;
+	max-width: 1500px;
+	padding: 2em 0;
+	display:flex;
+	justify-content: center;
+}
+
+button{
+	background-color:orange;
+	background-position: center;
+}
+.cricket::after{
+    content: "Cricket offer/Data pack";
+    color: white;
+    background-color:orange;
+    padding: 0.1em 0.1em;
+    font-size: 0.8em;
+    font-weight: bold;
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 10px;
+}
+.smart{
+    border: 2px solid black;
+    padding: 15px;
+    position: relative;
+}
+.cricket{
+    border: 2px solid black;
+    padding: 15px;
+    position: relative;
+}    
+.pricing{
+	display:table-row;
+	justify-content: space-around;
+	width;100%
+}
+
+.price-packs{
+	background-color:white;
+	border:1px solid #ddd;
+	border-radius: 10px;
+    width: 80%;
+    text-align: center;
+    padding: 2em;
+    margin: 0 1em;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    
+    padding: 15px;
+    position: relative;
+}
+}
+.price-packs:hover{
+	transform: :translateY(-15px);
+	box-shadow: 0 10px 20px;
+}
+.price-packs h2{
+	margin:0;
+	font-size:2em;
+	color:purple;
+}
+.price-packs .price{
+	font-size: 2em;
+	color:black;
+}
+.price-packs .price span{
+	font-size:0.8em;
+	color:black;
+}
+.price-packs ul{
+	list-style: none;
+	padding:0;
+	margin:1em 0;
+	color:black;
+}
+.price-packs ul li{
+	margin: 0.5em 0;
+}
+.price-packs button{
+	background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 1em 1em;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+
+}
+.price-packs button:hover{
+	background-color: #0056b3;
+}
+.price-packs .price{
+	font-size: 2em;
+	color:black;
+}
+.popular {
+ 
+    padding: 15px;
+    position: relative;
+}
